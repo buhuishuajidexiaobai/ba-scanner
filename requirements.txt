@@ -1,0 +1,7 @@
+zhconv
+pefile
+mss
+opencv-python
+rapidocr-onnxruntime
+onnxruntime
+numpy

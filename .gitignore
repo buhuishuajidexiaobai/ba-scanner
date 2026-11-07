@@ -1,0 +1,7 @@
+build/
+dist/
+输出/
+config.json
+__pycache__/
+*.pyc
+*.spec

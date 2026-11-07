@@ -1,0 +1,13 @@
+# 扫描结果与诊断输出（个人游戏数据，不入库）
+输出/
+输出/debug/
+
+# Python
+__pycache__/
+*.pyc
+
+# 便携版运行时（Release 附件分发，不入库）
+runtime/
+
+# 本机配置
+local_python_path.txt

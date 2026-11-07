@@ -1,0 +1,11 @@
+输出/
+third_party/
+config.json
+__pycache__/
+*.pyc
+*.log
+*.dmp
+*.bin
+_*.json
+*.zip
+导出账号数据.bat

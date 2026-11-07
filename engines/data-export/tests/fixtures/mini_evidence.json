@@ -1,0 +1,299 @@
+{
+ "metadataSha256": "b7d8373d419047bec25ebe6fe3ce76686e7ca979d151ad819d93c1c2fdbc8360",
+ "binarySha256": "bbe68ad3fd303884fe7d87abeeac3df0b6f7581b179d8fb16715c6037ae473ab",
+ "nativeOffsetsResolved": true,
+ "processMemoryRead": false,
+ "types": [
+  {
+   "typeDefinitionIndex": 12518,
+   "name": "MX.GameLogic.DBModel.CharacterDB",
+   "parentIndex": 58230,
+   "parentType": "MX.GameLogic.Parcel.ParcelBase",
+   "isValueType": false,
+   "fields": [
+    {
+     "name": "<ServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 16
+    },
+    {
+     "name": "<UniqueId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 24
+    },
+    {
+     "name": "<StarGrade>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 32
+    },
+    {
+     "name": "<Level>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 36
+    },
+    {
+     "name": "<Exp>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 40
+    },
+    {
+     "name": "<FavorRank>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 48
+    },
+    {
+     "name": "<FavorExp>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 56
+    },
+    {
+     "name": "<PublicSkillLevel>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 64
+    },
+    {
+     "name": "<ExSkillLevel>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 68
+    },
+    {
+     "name": "<PassiveSkillLevel>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 72
+    },
+    {
+     "name": "<ExtraPassiveSkillLevel>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 76
+    },
+    {
+     "name": "<LeaderSkillLevel>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 80
+    },
+    {
+     "name": "<IsFavorite>k__BackingField",
+     "typeIndex": 38615,
+     "type": "bool",
+     "isStatic": false,
+     "offset": 84
+    },
+    {
+     "name": "<EquipmentServerIds>k__BackingField",
+     "typeIndex": 23122,
+     "type": "System.Collections.Generic.List<long>",
+     "isStatic": false,
+     "offset": 88
+    },
+    {
+     "name": "<PotentialStats>k__BackingField",
+     "typeIndex": 10828,
+     "type": "System.Collections.Generic.Dictionary<int, int>",
+     "isStatic": false,
+     "offset": 96
+    }
+   ]
+  },
+  {
+   "typeDefinitionIndex": 12548,
+   "name": "MX.GameLogic.DBModel.ConsumableItemBaseDB",
+   "parentIndex": 58230,
+   "parentType": "MX.GameLogic.Parcel.ParcelBase",
+   "isValueType": false,
+   "fields": [
+    {
+     "name": "<ServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 16
+    },
+    {
+     "name": "<UniqueId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 24
+    },
+    {
+     "name": "<StackCount>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 32
+    }
+   ]
+  },
+  {
+   "typeDefinitionIndex": 12594,
+   "name": "MX.GameLogic.DBModel.EquipmentDB",
+   "parentIndex": 42388,
+   "parentType": "MX.GameLogic.DBModel.ConsumableItemBaseDB",
+   "isValueType": false,
+   "fields": [
+    {
+     "name": "<Level>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 40
+    },
+    {
+     "name": "<Exp>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 48
+    },
+    {
+     "name": "<Tier>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 56
+    },
+    {
+     "name": "<BoundCharacterServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 64
+    }
+   ]
+  },
+  {
+   "typeDefinitionIndex": 12633,
+   "name": "MX.GameLogic.DBModel.GearDB",
+   "parentIndex": 58230,
+   "parentType": "MX.GameLogic.Parcel.ParcelBase",
+   "isValueType": false,
+   "fields": [
+    {
+     "name": "<ServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 16
+    },
+    {
+     "name": "<UniqueId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 24
+    },
+    {
+     "name": "<Level>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 32
+    },
+    {
+     "name": "<Exp>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 40
+    },
+    {
+     "name": "<Tier>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 48
+    },
+    {
+     "name": "<SlotIndex>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 56
+    },
+    {
+     "name": "<BoundCharacterServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 64
+    }
+   ]
+  },
+  {
+   "typeDefinitionIndex": 12639,
+   "name": "MX.GameLogic.DBModel.ItemDB",
+   "parentIndex": 42388,
+   "parentType": "MX.GameLogic.DBModel.ConsumableItemBaseDB",
+   "isValueType": false,
+   "fields": []
+  },
+  {
+   "typeDefinitionIndex": 12748,
+   "name": "MX.GameLogic.DBModel.WeaponDB",
+   "parentIndex": 58230,
+   "parentType": "MX.GameLogic.Parcel.ParcelBase",
+   "isValueType": false,
+   "fields": [
+    {
+     "name": "<UniqueId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 16
+    },
+    {
+     "name": "<Level>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 24
+    },
+    {
+     "name": "<Exp>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 32
+    },
+    {
+     "name": "<StarGrade>k__BackingField",
+     "typeIndex": 51762,
+     "type": "int",
+     "isStatic": false,
+     "offset": 40
+    },
+    {
+     "name": "<BoundCharacterServerId>k__BackingField",
+     "typeIndex": 51798,
+     "type": "long",
+     "isStatic": false,
+     "offset": 48
+    }
+   ]
+  }
+ ]
+}

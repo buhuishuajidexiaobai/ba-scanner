@@ -1,0 +1,31 @@
+﻿@echo off
+chcp 65001 >nul
+cd /d "%~dp0"
+title 蔚蓝档案库存导出工具 - 采集
+echo ============================================
+echo  BA 库存采集（自动找窗口+滚动+点击+识别）
+echo  请先：启动游戏并进入「道具」页面
+echo  采集期间不要动鼠标键盘，约 3-6 分钟
+echo ============================================
+
+set PY_CMD=python
+if exist "runtime\python.exe" set PY_CMD=runtime\python.exe
+if exist ".venv\Scripts\python.exe" set PY_CMD=.venv\Scripts\python.exe
+if exist "venv\Scripts\python.exe" set PY_CMD=venv\Scripts\python.exe
+if exist "local_python_path.txt" set /p PY_CMD=<local_python_path.txt
+
+"%PY_CMD%" -u ba_queue_collector.py
+if errorlevel 1 goto failed
+echo.
+echo ============================================
+echo  采集完成！导入文件已生成在「输出」文件夹（已自动打开），
+echo  直接导入什亭之匣即可；如需不重扫重新生成，运行「2-生成什亭之匣导入文件.bat」。
+echo ============================================
+echo  3 秒后自动关闭本窗口...
+timeout /t 3 /nobreak >nul
+exit /b 0
+
+:failed
+echo.
+echo  采集过程中出现错误，详情见上方提示与「采集日志.txt」。
+pause
